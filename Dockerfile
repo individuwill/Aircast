@@ -12,4 +12,4 @@ RUN chmod +x /app/aircast
 
 WORKDIR /app
 
-CMD ["/app/aircast", "-l", "1000:2000", "-d", "all=error", "-d", "main=info"]
+CMD ["/app/aircast", "-Z", "-l", "1000:2000", "-d", "all=error", "-d", "main=info"]
